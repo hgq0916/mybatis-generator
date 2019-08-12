@@ -40,6 +40,7 @@
       <!--<ignoreColumn column="FRED" />-->
       <!--<columnOverride column="LONG_VARCHAR_FIELD" jdbcType="VARCHAR" />-->
     </table>
+    <table schema="mybatis_test" tableName="tb_address" domainObjectName="Address" />
 
   </context>
 </generatorConfiguration>
